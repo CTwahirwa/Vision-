@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: elab-website
+    runtime: node
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    startCommand: npm run preview
+    envVars:
+      - key: NODE_ENV
+        value: production
+    routes:
+      - path: /
+        matchType: prefix
+    staticSite:
+      source: ./build
