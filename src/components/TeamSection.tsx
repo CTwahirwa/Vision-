@@ -58,10 +58,10 @@ export default function TeamSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-6xl mb-6 bg-gradient-to-r from-[#00A1DE] via-[#FFD23F] to-[#1FA774] bg-clip-text text-transparent">
+          <h2 className="text-5xl md:text-7xl mb-6 bg-gradient-to-r from-[#00A1DE] via-[#FFD23F] to-[#1FA774] bg-clip-text text-transparent">
             Meet the Innovators
           </h2>
-          <p className="text-lg text-[#F5F5F7]/80 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-[#F5F5F7]/80 max-w-3xl mx-auto">
             Five passionate individuals united by one vision: transforming education in Rwanda.
           </p>
         </motion.div>
